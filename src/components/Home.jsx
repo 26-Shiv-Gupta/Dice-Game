@@ -1,13 +1,13 @@
 import styled from "styled-components";
 import diceImg from "../assets/dice.png"
 
-const Home = () => {
+const Home = ({ toggleIsStarted }) => {
     return (
         <HomeContainer>
             <div><img src={diceImg} alt="" /></div>
             <div>
                 <h1>DICE GAME</h1>
-                <button>Play Now</button>
+                <button onClick={toggleIsStarted}>Play Now</button>
             </div>
         </HomeContainer>
     )

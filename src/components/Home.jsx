@@ -20,7 +20,6 @@ const HomeContainer = styled.div`
     align-items: center;
     justify-content: center;
     margin: auto;
-    font-family: "Poppins", sans-serif;
 
     div {
         height: 522px;

@@ -33,12 +33,12 @@ const Game = () => {
         const newRandomNum = ((Math.floor(Math.random() * 10)) % 6) + 1;
         setRandomNum(newRandomNum);
 
-        findScore();
+        findScore(newRandomNum);
         return;
     }
 
-    const findScore = () => {
-        randomNum === selectedNum ? setScore(prev => (prev + selectedNum)) : setScore(prev => (prev - selectedNum));
+    const findScore = (diceValue) => {
+        diceValue === selectedNum ? setScore(prev => (prev + selectedNum)) : setScore(prev => (prev - selectedNum));
         setSelectedNum(undefined)
     }
 

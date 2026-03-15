@@ -5,7 +5,7 @@ import dice3 from '../assets/dice_3.png'
 import dice4 from '../assets/dice_4.png'
 import dice5 from '../assets/dice_5.png'
 import dice6 from '../assets/dice_6.png'
-import { use, useDebugValue, useState } from "react";
+import { useState } from "react";
 
 const Game = () => {
 
@@ -30,7 +30,8 @@ const Game = () => {
             return;
         }
 
-        setRandomNum(((Math.floor(Math.random() * 10)) % 6) + 1);
+        const newRandomNum = ((Math.floor(Math.random() * 10)) % 6) + 1;
+        setRandomNum(newRandomNum);
 
         findScore();
         return;

@@ -85,15 +85,16 @@ npm run dev
 
 ---
 
-## 🚀 Deployment
+## 📚 Learnings
 
-This project is deployed using Netlify.
+While building DiceStrike, I learned:
 
----
-
-## 👨‍💻 Author
-
-Shiv Gupta
+* ⚛️ How to use React hooks like useState for state management
+* 🔁 Handling events like click to trigger dynamic UI updates
+* 🎲 Generating random values and updating components accordingly
+* 🎨 Styling components using Styled Components
+* 🚀 Deploying a React project on Netlify
+* 🐛 Debugging common issues like incorrect image rendering and path errors
 
 ---
 

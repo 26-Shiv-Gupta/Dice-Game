@@ -1,16 +1,102 @@
-# React + Vite
+# 🎲 DiceStrike
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DiceStrike is an interactive dice game built using React where users can select a number and test their luck by rolling the dice.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 https://dicestrike.netlify.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
 
-## Expanding the ESLint configuration
+* 🎯 Select a number (1–6)
+* 🎲 Roll the dice by clicking on it
+* 📈 Score updates based on correct/incorrect guesses
+* 🔄 Reset score functionality
+* 📜 Game rules section
+* ⚡ Fast and responsive UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+* React.js
+* JavaScript (ES6+)
+* Styled Components
+* CSS
+
+---
+
+## 🎮 How to Play
+
+1. Select a number from 1 to 6
+2. Click on the dice to roll
+3. If your selected number matches the dice:
+
+   * ✅ You gain points
+4. If it does not match:
+
+   * ❌ Points are deducted
+5. Keep playing and maximize your score!
+
+---
+
+## 📁 Project Structure
+
+```
+Dice-Game/
+│── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── index.jsx
+│── public/
+│── package.json
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```
+git clone https://github.com/your-username/Dice-Game.git
+```
+
+Navigate to project folder:
+
+```
+cd Dice-Game
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run locally:
+
+```
+npm run dev
+```
+
+---
+
+## 🚀 Deployment
+
+This project is deployed using Netlify.
+
+---
+
+## 👨‍💻 Author
+
+Shiv Gupta
+
+---
+
+## ⭐ Show your support
+
+If you like this project, give it a ⭐ on GitHub!
